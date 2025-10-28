@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pabitra's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="#hero" class="logo">Pabitra<span class="dot-accent">.</span></a>
+        <nav class="main-nav" aria-label="Main Navigation">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        
+        <section id="hero" class="hero-section flow-content">
+            <article class="hero-content">
+                <p class="pre-heading">Welcome.</p>
+                <h1>I'm Pabitra Bhandari</h1>
+                <div class="typing-text">
+                    
+                    <span class="job-title-dynamic accent">Developer</span>
+                </div>
+                <div class="cta-group">
+                    <a href="https://www.linkedin.com/in/pabitra-bhandari-6a7074283/" target="_blank" class="btn btn-primary">LinkedIn</a>
+                    <a href="#projects" class="btn btn-secondary">My Works</a>
+                </div>
+            </article>
+            
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title"><span class="accent">About</span> Me</h2>
+            
+            <div class="skills-grid">
+                <h3 class="visually-hidden">My Technical Skills</h3>
+                <div class="skill-item" data-skill-percent="90">
+                    <h4 class="skill-name">HTML, CSS & JAVASCRIPT</h4>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+                <div class="skill-item" data-skill-percent="70">
+                    <h4 class="skill-name">REACT / VUE</h4>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+                <div class="skill-item" data-skill-percent="55">
+                    <h4 class="skill-name">JAVA</h4>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+                <div class="skill-item" data-skill-percent="85">
+                    <h4 class="skill-name">COMMUNICATION</h4>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+            </div>
+
+            <article class="bio-content">
+                <p>Passionate about web development, good at solving problems and communicating well. Committed to making sure our products are top-notch and meet customer expectations. Works great in teams. Actively engage in ongoing professional development...</p>
+                <dl class="details-list">
+                    <div><dt>Profile:</dt><dd>Front-End Developer</dd></div>
+                    <div><dt>Education:</dt><dd>Bachelor of Computer Aplications</dd></div>
+                    <div><dt>Location:</dt><dd>Kathmandu, Nepal</dd></div>
+                    <div><dt>Projects Completed:</dt><dd class="accent">10+</dd></div>
+                </dl>
+            </article>
+        </section>
+        
+        <section id="resume" class="resume-section">
+            <h2 class="section-title"><span class="accent">My</span> Journey</h2>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <header class="timeline-header">
+                        <time datetime="2021-2024">2021 - 2024</time>
+                        <h3>Bachelor of Computer Applications.</h3>
+                    </header>
+                    <p class="timeline-institution">Trinity International College</p>
+                  
+                </div>
+                <div class="timeline-item">
+                    <header class="timeline-header">
+                        <time datetime="2017-2019">2017 - 2019</time>
+                        <h3>Science</h3>
+                    </header>
+                    <p class="timeline-institution">Kathmandu Model College</p>
+                    
+                </div>
+            </div>
+            <a href="assets/my-cv.pdf" download class="btn download-btn">DOWNLOAD CV</a>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title"><span class="accent">Featured</span> Projects</h2>
+            <p class="section-description">Below are samples of projects I have completed, highlighting the knowledge gained from each.</p>
+            
+            <div class="project-grid">
+                <article class="project-card">
+                    <figure class="project-figure">
+                        <img src="assets/project-landing-page.jpg" alt="Modern Landing Page Web Design">
+                    </figure>
+                    <h3>Modern Landing Page Web Design</h3>
+                    <p>Designed a modern landing page utilizing HTML, CSS, and JavaScript, integrating essential CDNs from npmjs.com to enhanced functionality.</p>
+                    <a href="#" target="_blank" class="project-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="project-card">
+                    <figure class="project-figure">
+                        <img src="assets/project-apple-clone.jpg" alt="Apple Clone Simple UI">
+                    </figure>
+                    <h3>Apple Clone Simple UI</h3>
+                    <p>Developed a sleek Apple-inspired design/UI using GSAP and locomotive Scroll CDN to create engaging animations and smooth scrolling effects.</p>
+                    <a href="#" target="_blank" class="project-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item"><strong>12</strong> Achievements</div>
+                <div class="stat-item"><strong>25</strong> Projects</div>
+                <div class="stat-item"><strong>500+</strong> Cups of coffee</div>
+            </div>
+
+            <p class="github-callout">More projects on <span class="accent">GitHub</span></p>
+            <a href="https://github.com/jayassap" target="_blank" class="btn btn-github">GITHUB</a>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title"><span class="accent">Contact</span> Me</h2>
+            <p class="section-description">Below are the details to reach out to me!</p>
+            
+            <address class="contact-details">
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt icon-circle"></i>
+                    <strong>ADDRESS</strong>
+                    <p>Kathmandu, Nepal</p>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-phone icon-circle"></i>
+                    <strong>CONTACT NUMBER</strong>
+                    <p>+977-9861703405</p>
+                </div>
+            </address>
+
+            <div class="social-links">
+                <p>Find me on</p>
+                <a href="https://linkedin.com/in/sabin" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Reddit"><i class="fab fa-reddit-alien"></i></a>
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>Copyright &copy; <time datetime="2025">2025</time> All rights reserved | Pabitra Bhandari</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
